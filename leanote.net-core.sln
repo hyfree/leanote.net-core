@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leanote", "leanote\leanote.csproj", "{4D788415-A965-46A2-B45F-89DAF9DB75E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leanoteLib", "leanoteLib\leanoteLib.csproj", "{776B3F15-586C-4C6A-825D-D054D504FE1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leanoteTest", "leanoteTest\leanoteTest.csproj", "{383FF937-45B6-4353-947D-8AA7C14E7F1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leanoteLibrary", "leanoteLibrary\leanoteLibrary.csproj", "{02751F84-1194-4351-AFF0-AC7A7789C3AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leanote.blog", "leanote.blog\leanote.blog.csproj", "{33D17E63-FBD7-4A33-9CD9-1E7E18C238CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{4D788415-A965-46A2-B45F-89DAF9DB75E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D788415-A965-46A2-B45F-89DAF9DB75E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D788415-A965-46A2-B45F-89DAF9DB75E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{776B3F15-586C-4C6A-825D-D054D504FE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{776B3F15-586C-4C6A-825D-D054D504FE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{776B3F15-586C-4C6A-825D-D054D504FE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{776B3F15-586C-4C6A-825D-D054D504FE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383FF937-45B6-4353-947D-8AA7C14E7F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383FF937-45B6-4353-947D-8AA7C14E7F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383FF937-45B6-4353-947D-8AA7C14E7F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383FF937-45B6-4353-947D-8AA7C14E7F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02751F84-1194-4351-AFF0-AC7A7789C3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02751F84-1194-4351-AFF0-AC7A7789C3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02751F84-1194-4351-AFF0-AC7A7789C3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02751F84-1194-4351-AFF0-AC7A7789C3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D17E63-FBD7-4A33-9CD9-1E7E18C238CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D17E63-FBD7-4A33-9CD9-1E7E18C238CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D17E63-FBD7-4A33-9CD9-1E7E18C238CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D17E63-FBD7-4A33-9CD9-1E7E18C238CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

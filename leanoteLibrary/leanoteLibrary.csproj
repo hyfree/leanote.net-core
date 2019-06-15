@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>leanoteLibrary</AssemblyName>
+    <RootNamespace>leanoteLibrary</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Config\mysql.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Config\mysql.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\File\" />
+    <Folder Include="Model\Notebook\" />
+    <Folder Include="Model\Note\" />
+    <Folder Include="Model\Tag\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.16" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
+    <PackageReference Include="ZKWeb.System.Drawing" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>

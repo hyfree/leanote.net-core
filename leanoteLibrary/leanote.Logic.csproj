@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <AssemblyName>leanoteLibrary</AssemblyName>
-    <RootNamespace>leanoteLibrary</RootNamespace>
+    <AssemblyName>leanote.Logic</AssemblyName>
+    <RootNamespace>leanote.Logic</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -509,6 +509,7 @@ mark,
 code {
   font-size: 87.5%;
   color: #e83e8c;
+    /* ReSharper disable once InvalidValue */
   word-break: break-word;
 }
 
@@ -6596,6 +6597,7 @@ button.bg-dark:focus {
 }
 
 .justify-content-around {
+    /* ReSharper disable once InvalidValue */
   -ms-flex-pack: distribute !important;
   justify-content: space-around !important;
 }
@@ -6751,6 +6753,7 @@ button.bg-dark:focus {
     justify-content: space-between !important;
   }
   .justify-content-sm-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
@@ -6890,6 +6893,7 @@ button.bg-dark:focus {
     justify-content: space-between !important;
   }
   .justify-content-md-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
@@ -7029,6 +7033,7 @@ button.bg-dark:focus {
     justify-content: space-between !important;
   }
   .justify-content-lg-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
@@ -7168,6 +7173,7 @@ button.bg-dark:focus {
     justify-content: space-between !important;
   }
   .justify-content-xl-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }

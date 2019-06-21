@@ -1265,6 +1265,7 @@ html {
 }
 
 .justify-content-around {
+    /* ReSharper disable once InvalidValue */
   -ms-flex-pack: distribute !important;
   justify-content: space-around !important;
 }
@@ -1420,6 +1421,7 @@ html {
     justify-content: space-between !important;
   }
   .justify-content-sm-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
@@ -1559,6 +1561,7 @@ html {
     justify-content: space-between !important;
   }
   .justify-content-md-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
@@ -1698,6 +1701,7 @@ html {
     justify-content: space-between !important;
   }
   .justify-content-lg-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }
@@ -1837,6 +1841,7 @@ html {
     justify-content: space-between !important;
   }
   .justify-content-xl-around {
+      /* ReSharper disable once InvalidValue */
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
   }

@@ -17,6 +17,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\leanoteLibrary\leanoteLibrary.csproj" />
+    <ProjectReference Include="..\leanoteLibrary\leanote.Logic.csproj" />
   </ItemGroup>
 </Project>
